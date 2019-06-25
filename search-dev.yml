@@ -7,3 +7,5 @@ spring:
     elasticsearch:
       cluster-nodes: 192.168.136.104:9300
       cluster-name: docker-cluster
+  rabbitmq:
+    host: 192.168.136.104

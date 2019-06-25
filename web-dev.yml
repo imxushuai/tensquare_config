@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: tensquare‐web #指定服务名
+  rabbitmq:
+    host: 192.168.136.104
 eureka:
   instance:
     prefer‐ip‐address: true

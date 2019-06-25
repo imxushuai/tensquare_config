@@ -9,6 +9,8 @@ spring:
   redis:
     host: 192.168.136.104
     port: 6379
+  rabbitmq:
+    host: 192.168.136.104
 server:
   port: 9006
 jwt:

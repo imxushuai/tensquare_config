@@ -8,6 +8,8 @@ spring:
     url: jdbc:mysql://192.168.136.104:3306/tensquare_article?characterEncoding=UTF8
     username: root
     password: 123456
+  rabbitmq:
+    host: 192.168.136.104
   redis:
     host: 192.168.136.104
   jpa: 

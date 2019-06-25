@@ -9,3 +9,5 @@ eureka:
 spring:
   application:
     name: tensquare_eureka
+  rabbitmq:
+    host: 192.168.136.104
